@@ -14,6 +14,11 @@
 					url: '/',
 					templateUrl: 'partials/home.html'
 				})
+				.state('account_list', {
+					url: '/account',
+					templateUrl: 'partials/account_list.html',
+					controller: 'AccountListCtrl as ctrl'
+				})
 				.state('about', {
 					url: '/about',
 					templateUrl: 'partials/about.html'

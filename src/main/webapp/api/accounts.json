@@ -1,0 +1,26 @@
+[
+  {
+  	"id": 1,
+    "name": "Opo's wallet",
+    "type": "cash",
+    "balance": 20.50
+  },
+  {
+  	"id": 2,
+    "name": "Hardware",
+    "type": "expense",
+    "balance": 9.50
+  },
+  {
+  	"id": 3,
+    "name": "Pranzi",
+    "type": "expense",
+    "balance": 120.50
+  },
+  {
+  	"id": 4,
+    "name": "Fineco",
+    "type": "bank",
+    "balance": 1020.50
+  }
+]
