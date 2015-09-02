@@ -5,7 +5,7 @@
 		.factory('AccountService', ['$http', function($http) {
 			return {
 				list: function() {
-					return $http.get('/api/accounts.json');
+					return $http.get('/api/v1/accounts');
 				}
 			};
 		}]);
