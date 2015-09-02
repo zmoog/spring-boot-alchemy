@@ -12,7 +12,6 @@
 				self.account_list = response.data;
 			});
 
-
-		}])
+		}]);
 
 })();

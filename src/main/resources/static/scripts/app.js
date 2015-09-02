@@ -6,8 +6,8 @@
 	 * Description
 	 */
 	angular.module('alchemy', ['ui.router'])
+
 		.config(['$stateProvider', function($stateProvider) {
-			
 
 			$stateProvider
 				.state('home', {
