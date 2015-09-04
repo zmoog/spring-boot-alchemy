@@ -1,4 +1,4 @@
-package alchemy.service;
+package alchemy.account.service;
 
 import alchemy.account.model.Account;
 import alchemy.account.model.AccountType;
@@ -13,12 +13,17 @@ import java.util.List;
 @Service
 public class AccountService {
 
-    public List<Account> getAccounts() {
+    List<Account> accounts;
 
-        List<Account> accounts = new ArrayList<>();
+    public AccountService() {
+
+        accounts = new ArrayList<>();
 
         accounts.add(new Account(1, "Hardware", AccountType.EXPENSE, 100.0f));
+        accounts.add(new Account(2, "Lunch", AccountType.EXPENSE, 400.0f));
+    }
 
+    public List<Account> getAccounts() {
         return accounts;
     }
 }
