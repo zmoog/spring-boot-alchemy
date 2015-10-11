@@ -1,4 +1,4 @@
-package alchemy.account.model;
+package alchemy.model;
 
 /**
  * Created by mbranca on 02/09/15.
